@@ -5,7 +5,7 @@
 # Installs Cassandra 3.0.7 package. Does only basic configuration.
 # Tokens and seed nodes should be configured by child images.
 
-FROM java:openjdk-7-jre
+FROM java:openjdk-8-jre
 
 ENV DEBIAN_FRONTEND noninteractive
 
